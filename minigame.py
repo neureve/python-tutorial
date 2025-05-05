@@ -1,5 +1,5 @@
 import random
-secret = random.randit(1, 10)
+secret = random.randint(1, 10)
 guess =int(input("guess a number: "))
 
 if guess == secret:
